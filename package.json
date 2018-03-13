@@ -5,7 +5,7 @@
   "author": "Wang Maodong",
   "license": "MIT",
   "scripts": {
-    "compile:sass": "node-sass ./sass/main.scss ./css/style.css"
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
   },
   "devDependencies": {
     "node-sass": "^4.7.2"
