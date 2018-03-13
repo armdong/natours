@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Wang Maodong",
   "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css"
+  },
   "devDependencies": {
     "node-sass": "^4.7.2"
   }
