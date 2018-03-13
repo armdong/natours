@@ -5,6 +5,7 @@
   "author": "Wang Maodong",
   "license": "MIT",
   "scripts": {
+    "server": "live-server .",
     "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
   },
   "devDependencies": {
